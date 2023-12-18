@@ -1,3 +1,5 @@
+const config = require("../config/config");
+
 const getDataFromApiGraphRnM = async (query) => {
     const response = await fetch("https://rickandmortyapi.com/graphql", {
         method: "POST",
